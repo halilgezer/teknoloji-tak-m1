@@ -1,0 +1,7 @@
+def fibonacci(n):       #fibonacci fonk tanımladık.
+        a,b = 1,1       # ilk iki terimi 1 1 olan fibonacci dizisini başlattık.
+        while a<n:      
+            print(a)
+            a,b = b, a+b
+           
+fibonacci(25)         # örnek olarak 25 e kadar olan fibonacci sayılarını yazdırdık. 
