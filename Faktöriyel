@@ -1,0 +1,22 @@
+def fact (n ) :     #faktöriyel fonksiyonunu tanımladık.
+    a=1 
+    sonuç = 1   
+    while a<=n :            #a , n den  küçük olduğu sürece a ' ya 
+                            # bir ekleyerek sonucu tekrar hesaplattık. 
+        sonuç = sonuç*a
+        a = a+1 
+    return sonuç
+
+print ( fact (6))
+
+
+
+# Ya da 
+
+
+def facto (n):
+    if n ==0:
+        return 1
+    return n* facto(n-1)
+
+print (facto (4))
